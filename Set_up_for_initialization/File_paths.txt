@@ -1,0 +1,20 @@
+NB! 
+This folder should not be changed.
+All folders should be based on the starting folder 'Solve_Ramp_QP_MPC'
+
+
+paths for qpramp:
+
+qpramp functions:
+1 - "Solve_ramp_equations\qpramp_functions"
+
+paths for SemiQP
+2 - "Set_up_ramp_functions_solvers\Semi_QP"
+3 - "Set_up_ramp_functions_solvers\Semi_QP\Saved_initialization_values"
+4 - "Solve_ramp_equations\Semi_QP_functions"
+
+paths for SemiQP_ineq
+5 - "Set_up_ramp_functions_solvers\Semi_QP_only_ineq"
+6 - "Set_up_ramp_functions_solvers\Semi_QP_only_ineq\Initialization_values_for_Semi_QP"
+
+
