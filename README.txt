@@ -5,7 +5,7 @@ Always use double quotes(" ") around folder paths — not single quotes (').
 
 Base folder path (project root):
 Path to this folder (Solve_Ramp_QP_MPC):
-"C:\Users\jonas\OneDrive\Dokumenter\Matlab\Solve_Ramp_QP_MPC" ------CHANGE THIS------
+"C:\Users\path_to_Solve-QP-with-Ramp-Functions\Solve-QP-with-Ramp-Functions" ------CHANGE THIS------
 
 
 Relative paths (from Solve_Ramp_QP_MPC):
