@@ -4,7 +4,7 @@ addpath("Set_up_for_initialization")
 
 qpramp_indexes = [41,42,43,44, 99,128];
 
-model_index = 5;
+model_index = 48;
 [Q, c, H_ineq, h_ineq, A_eq, b_eq, c0, solution, SelectedFile, Main_folder] = get_model_data_from_git(model_index);
 [z,time,~] = solve_Ramp_QP(Main_folder,SelectedFile, Q, c, H_ineq, h_ineq, A_eq, b_eq);
 [z1,time1] = solve_with_quadprog(Q, c, H_ineq, h_ineq, A_eq, b_eq);

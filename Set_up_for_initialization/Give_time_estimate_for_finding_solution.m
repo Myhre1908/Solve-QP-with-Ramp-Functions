@@ -1,9 +1,12 @@
 function Give_time_estimate_for_finding_solution(FileName,Main_folder)
     folder_path_from_main_folder = "Data_files/Ramp_solutions";
-    Folder_path = fullfile(Main_folder,folder_path_from_main_folder);
-    [~, time, ~] = Load_ramp_solution(FileName,Folder_path);
-    if time > 30
-        Anounce_time(time)
+    try
+        Folder_path = fullfile(Main_folder,folder_path_from_main_folder);
+        [~, time, ~] = Load_ramp_solution(FileName,Folder_path);
+        if time > 30
+            Anounce_time(time)
+        end
+    catch
     end
 end
 
